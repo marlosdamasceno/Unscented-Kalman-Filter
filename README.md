@@ -47,20 +47,20 @@ A good improvement was change the matrix P to:
 
 #### 1. While you may be creative with your implementation, there is a well-defined set of steps that must take place in order to successfully build a Kalman Filter. As such, your project should follow the algorithm as described in the preceding lesson.
 
-I have followed the class for all implementation. At the code is possible to see where in the class I got the reference for the code, just like [this line]() where I show that was from lesson 8 section 21.
+I have followed the class for all implementation. At the code is possible to see where in the class I got the reference for the code, just like [this line](https://github.com/marlosdamasceno/unscented-kalman-filter/blob/master/src/ukf.cpp#L179) where I show that was from lesson 8 section 21.
 
 #### 2. Your algorithm should use the first measurements to initialize the state vectors and covariance matrices.
 
-The first measurement is handled at [ukf.cpp]() from line 92 to line 127.
+The first measurement is handled at [ukf.cpp](https://github.com/marlosdamasceno/unscented-kalman-filter/blob/master/src/ukf.cpp#L92) from line 92 to line 127.
 
 #### 3. Upon receiving a measurement after the first, the algorithm should predict object position to the current timestep and then update the prediction using the new measurement.
 
-The predict and update steps can be found in [ukf.cpp]() from line 129 to line 137.
+The predict and update steps can be found in [ukf.cpp](https://github.com/marlosdamasceno/unscented-kalman-filter/blob/master/src/ukf.cpp#L129) from line 129 to line 137.
 
 
 #### 4. Your algorithm sets up the appropriate matrices given the type of measurement and calls the correct measurement function for a given sensor type.
 
-The code can handle both Radar and Lidar sensors, you can find in [ukf.cpp]() from line 129 to line 137.
+The code can handle both Radar and Lidar sensors, you can find in [ukf.cpp](https://github.com/marlosdamasceno/unscented-kalman-filter/blob/master/src/ukf.cpp#L129) from line 129 to line 137.
 
 
 ### Code Efficiency
